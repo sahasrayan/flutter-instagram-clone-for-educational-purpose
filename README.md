@@ -40,3 +40,10 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/sahasrayan/flutter-instagram-clone-for-educational-purpose.git
    cd flutter-instagram-clone-for-educational-purpose
+2. Install dependencies:
+      flutter pub get
+3. Set up Firebase:
+    Add your google-services.json (for Android) and GoogleService-Info.plist (for iOS) files in the respective directories.
+    Ensure the Firebase project has all the required services enabled.
+4. Run the application:
+   flutter run
