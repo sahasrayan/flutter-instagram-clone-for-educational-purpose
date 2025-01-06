@@ -1,16 +1,42 @@
-# instagram_clone_flutter
+# Instagram Clone
 
-A new Flutter project.
+A fully functional Instagram clone built using **Flutter** and **Firebase**, designed to replicate core features of Instagram, such as user authentication, photo sharing, commenting, liking, and profile management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User Authentication (Sign up, Login, Logout)
+- Post creation with photo upload
+- Like and comment functionality on posts
+- User profile with the ability to edit profile information
+- Follower and following system
+- Real-time updates using Firebase Firestore
+- Responsive UI for both Android and iOS
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+*Include screenshots of the app (e.g., login screen, feed screen, profile screen)*
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- **Flutter**: For building cross-platform mobile applications.
+- **Firebase Authentication**: For managing user authentication.
+- **Firebase Firestore**: For real-time database and data storage.
+- **Firebase Storage**: For storing user-uploaded images.
+- **Provider**: For state management (mention the one used).
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Flutter SDK installed on your machine.
+- A Firebase project set up with Authentication, Firestore, and Storage enabled.
+- Android Studio or Visual Studio Code with Flutter plugin.
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sahasrayan/flutter-instagram-clone-for-educational-purpose.git
+   cd flutter-instagram-clone-for-educational-purpose
